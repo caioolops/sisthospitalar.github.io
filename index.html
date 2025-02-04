@@ -115,21 +115,21 @@
     <h2>Arquitetura do Sistema</h2>
     <p>O sistema é baseado em uma estrutura modular composta por 13 classes distintas, garantindo organização e escalabilidade. Cada classe possui um arquivo header e um arquivo de interface, sendo executadas pelo main.cpp. A autenticação é gerida pela classe Login, que conecta-se ao banco de dados para validar credenciais. Interfaces como ADM_inicio, Medico_inicio e Paciente_inicio direcionam os usuários às funcionalidades adequadas. Além disso, módulos específicos permitem o gerenciamento de atendimentos, cadastros e controle de materiais, assegurando o funcionamento eficiente do sistema.</p>
   </div>
-  <div class="image-section">
+  <div class="image-section" style="margin-top: 2rem;">
     <h2>Fluxograma da Navegação entre Telas</h2>
     <img src="Untitled (1).png" alt="Fluxograma da Navegação entre Telas">
   </div>
   <div class="section">
     <h2>Banco de Dados</h2>
-    <p>O sistema utiliza um banco de dados SQLite para armazenar e gerenciar informações essenciais.</p>
+    <p>O sistema utiliza um banco de dados SQLite para armazenar e gerenciar informações essenciais.</p><br>
     <ul>
       <li><strong>Médicos:</strong> Armazena ID, nome, username, senha e especialidade.</li>
       <li><strong>Pacientes:</strong> Contém ID, nome, username e senha.</li>
       <li><strong>Atendimentos:</strong> Inclui ID, médico_id, paciente_id, data, horário e tipo de atendimento.</li>
       <li><strong>Materiais:</strong> Controla ID, nome e quantidade de insumos médicos disponíveis.</li>
-    </ul>
+    </ul><br>
     <p>As tabelas possuem relacionamentos entre si para garantir a integridade dos dados.</p>
-    <div class="image-section">
+    <div class="image-section" style="margin-top: 1rem;">
       <img src="bancodedados.jpg" alt="Estrutura do Banco de Dados">
     </div>
   </div>
