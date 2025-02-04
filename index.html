@@ -100,6 +100,20 @@
     <h2>Fluxograma da Navegação entre Telas</h2>
     <img src="Untitled (1).png" alt="Fluxograma da Navegação entre Telas">
   </div>
+  <div class="section">
+    <h2>Banco de Dados</h2>
+    <p>O sistema utiliza um banco de dados SQLite para armazenar e gerenciar informações essenciais.</p><br> Ele é estruturado em quatro tabelas principais:</p>
+    <br><ul>
+      <li><strong>Médicos:</strong> Armazena ID, nome, username, senha e especialidade.</li>
+      <li><strong>Pacientes:</strong> Contém ID, nome, username e senha.</li>
+      <li><strong>Atendimentos:</strong> Inclui ID, médico_id, paciente_id, data, horário e tipo de atendimento.</li>
+      <li><strong>Materiais:</strong> Controla ID, nome e quantidade de insumos médicos disponíveis.</li>
+    </ul>
+    <br><p>As tabelas possuem relacionamentos entre si para garantir a integridade dos dados. Por exemplo, a tabela de atendimentos utiliza IDs de médicos e pacientes para associar consultas e procedimentos a cada usuário.</p>
+    <div class="image-section">
+      <img src="bancodedados.jpg" alt="Estrutura do Banco de Dados">
+    </div>
+  </div>
   <div class="video-section">
     <h2>Apresentação em Vídeo</h2>
     <video controls autoplay muted>
